@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+}
+
+
+/* has to go at bottom, only need to do overwriten */
+@media screen and (max-width: 750px) {
+
+}
