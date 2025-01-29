@@ -72,13 +72,19 @@ main p{
 #projects{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 2vh 2vw;
 }
 
 #projects-text{
     align-self: center;
-    width: 60%;
+    width: 100%;
+    margin: 1vh 1vw;
+}
+
+#projects-calculator{
+    align-self: center;
+    width: 100%;
     margin: 1vh 1vw;
 }
 

@@ -71,15 +71,8 @@ main p{
 }
 
 #certifications{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 2vh 2vw;
-}
-
-#certifications-text{
     align-self: center;
-    width: 60%;
+    width: 100%;
     margin: 1vh 1vw;
 }
 
@@ -154,7 +147,7 @@ footer a{
         font-size: calc(2px + 3vw);
     } 
 
-    #certifications-text{
+    #certifications{
         align-self: center;
         width: 100%;
         margin: 1vh 1vw;

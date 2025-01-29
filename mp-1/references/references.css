@@ -76,12 +76,6 @@ main p{
     padding: 2vh 2vw;
 }
 
-#references-text{
-    align-self: center;
-    width: 60%;
-    margin: 1vh 1vw;
-}
-
 #references-title{
     margin: 2vw 0;
     text-align: center;
@@ -148,21 +142,11 @@ footer a{
         font-size: calc(2px + 3vw);
     }
 
-    #profile-image{
-        max-width: 100%;
-    }
-
     #references{
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    #references-text{
-        align-self: center;
-        width: 100%;
-        margin: 1vh 1vw;
     }
 
     #references-image{

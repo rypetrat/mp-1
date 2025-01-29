@@ -78,12 +78,6 @@ main p{
     padding: 2vh 2vw;
 }
 
-#experience-text{
-    align-self: center;
-    width: 60%;
-    margin: 1vh 1vw;
-}
-
 #experience-title{
     margin: 2vw 0;
     text-align: center;
@@ -160,12 +154,6 @@ footer a{
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    #experience-text{
-        align-self: center;
-        width: 100%;
-        margin: 1vh 1vw;
     }
 
     #experience-title{
