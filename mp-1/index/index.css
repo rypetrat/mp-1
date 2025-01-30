@@ -73,6 +73,8 @@ main p{
 
 #profile-image{
     max-width: 100%;
+    border: 2px solid #3527ff;
+    border-radius: 2%;
 }
 
 #main{
@@ -86,6 +88,7 @@ main p{
     align-self: center;
     width: 60%;
     margin: 1vh 1vw;
+    font-size: calc(2px + 1.5vw);
 }
 
 #main-image{
@@ -98,6 +101,10 @@ main p{
     text-align: center;
     font-size: calc(2px + 2vw);
     color: #3527ff;
+}
+
+#lower-main p {
+    font-size: calc(3px + 1.75vw);
 }
 
 /* Footer styling */
@@ -187,5 +194,10 @@ footer a{
 
     #main-title{
         text-align: center;
+        font-size: calc(10px + 2vw);
+    }
+
+    #lower-main p {
+        font-size: calc(2px + 1.5vw);
     }
 }

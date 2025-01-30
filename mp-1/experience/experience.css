@@ -85,6 +85,15 @@ main p{
     color: #3527ff;
 }
 
+main ul {
+    list-style-type: square;
+}
+
+#experience ul li {
+    font-size: calc(10px + 1vw);
+    padding-bottom: 5%;
+}
+
 /* Footer styling */
 footer{
     background-color: #3527ff;
@@ -158,5 +167,11 @@ footer a{
 
     #experience-title{
         text-align: center;
+        font-size: calc(10px + 2vw);
+    }
+
+    #experience ul li {
+        font-size: calc(2.5px + 1.7vw);
+        padding-bottom: 5%;
     }
 }
