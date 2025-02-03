@@ -77,11 +77,11 @@ main{
     margin: 1vh 1vw;
 }
 
-#projects-text ul {
+#projects-text ul{
     list-style-type: square;
 }
 
-#projects-text ul li {
+#projects-text ul li{
     font-size: calc(10px + 1vw);
     padding-bottom: 5%;
 }
@@ -89,6 +89,16 @@ main{
 #projects-calculator{
     align-self: center;
     width: 100%;
+    margin: 1vh 1vw;
+}
+
+#projects-calculator h1{
+    text-align: center;
+}
+
+#calc-retVal{
+    text-align: center;
+    /* padding-left: 100; */
     margin: 1vh 1vw;
 }
 

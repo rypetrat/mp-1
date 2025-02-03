@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Age Restricted Website</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>Age Restricted Website</h1>
+            <h3>Must be at least 18 to view content</h3>
+        </header>
+        <main>
+            <!-- Age input and submission button -->
+            <label for="age-input">Please input your age: </label><input id="age-input">
+            <button onclick="checkAge()">Check Age</button>
+
+            <div id="error-content">
+                <p id="error-message"></p>
+            </div>
+
+            <div id="main-content">
+                <!-- hidden photo of myself and paraghaph describing -->
+                <img src="me.jpg" alt="Photo of myself" id="profile-img">
+                <p>
+                    This is an image of myself. My name is Ryan Petrat I am a senior studying Computer Science at Boston University.
+                    I will be working for GEICO after I gradtuate doing work in distributed systems.
+                </p>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
