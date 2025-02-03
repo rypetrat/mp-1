@@ -46,19 +46,27 @@
                     <!-- the javascript calculator -->
                     <div id="projects-calculator">
                         <h1>Javascript Calculator</h1>
-                        <label for="num1-input">First Number: </label><input id="num1-input">
-                        <label for="num2-input">Second Number: </label><input id="num2-input">
-                        <button onclick="calcAdd()">+</button>
-                        <button onclick="calcSub()">-</button>
-                        <button onclick="calcMult()">*</button>
-                        <button onclick="calcDiv()">/</button>
-                        <button onclick="calcPow()">**</button>
-                        <button onclick="calcClear()">Clear</button>
+                        <div class="num-inputs">
+                            <label for="num1-input"></label><input id="num1-input">
+                        </div>
+                        <div class="num-inputs">
+                            <label for="num2-input"></label><input id="num2-input">
+                        </div>
+                        
+                        <div id="button-container">
+                            <button onclick="calcAdd()">+</button>
+                            <button onclick="calcSub()">-</button>
+                            <button onclick="calcMult()">*</button>
+                            <button onclick="calcDiv()">/</button>
+                            <button onclick="calcPow()">**</button>
+                            <button onclick="calcClear()">Clear</button>
+                        </div>
+                        <div id="calc-retVal">
+                            <p id="retVal"></p>
+                        </div>
                     </div>
 
-                    <div id="calc-retVal">
-                        <p id="retVal"></p>
-                    </div>
+                    
                 </main>
             </div>
             <!-- Footer start -->

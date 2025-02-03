@@ -57,6 +57,9 @@ function calcDiv() {
         document.getElementById("retVal").style.color="red"
         output.innerHTML = result
     }
+    if (isNaN(result)) {
+        output.innerHTML = null
+    }
     else {
         document.getElementById("retVal").style.color="black"
         output.innerHTML = result
