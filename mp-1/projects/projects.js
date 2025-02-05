@@ -1,4 +1,3 @@
-// Make sure that if a number is negative it still always turns red and upon becoming positive again returns to black
 function calcAdd() {
     let input1 = document.getElementById("num1-input").value
     let input2 = document.getElementById("num2-input").value
